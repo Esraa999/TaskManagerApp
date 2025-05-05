@@ -1,0 +1,124 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Core", "src\TaskManager.Core\TaskManager.Core.csproj", "{2AF07CFB-52E3-439F-87E8-95E04786340A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Infrastructure", "src\TaskManager.Infrastructure\TaskManager.Infrastructure.csproj", "{65F7D62B-8C04-46BC-B81B-D36E4DFB8D6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.API", "src\TaskManager.API\TaskManager.API.csproj", "{18259B6C-74AD-4053-B45E-7F89ABA943A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		src\app\app-routing.module.ts = src\app\app-routing.module.ts
+		src\app\app.component.ts = src\app\app.component.ts
+		src\app\app.module.ts = src\app\app.module.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "models", "models", "{D3C447C9-5F69-47B2-957B-91E143D4522C}"
+	ProjectSection(SolutionItems) = preProject
+		src\app\models\task.model.ts = src\app\models\task.model.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{7E5839EF-F5BE-4679-BD91-A4DE7000D5C8}"
+	ProjectSection(SolutionItems) = preProject
+		src\app\services\task.service.ts = src\app\services\task.service.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{9A6104D4-3A84-4AF4-8CE2-0E65D2E7D9DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "task-list", "task-list", "{7B839B1D-38BE-47B1-935F-31F79B841CA1}"
+	ProjectSection(SolutionItems) = preProject
+		src\app\components\task-list\task-list.component.html = src\app\components\task-list\task-list.component.html
+		src\app\components\task-list\task-list.component.scss = src\app\components\task-list\task-list.component.scss
+		src\app\components\task-list\task-list.component.ts = src\app\components\task-list\task-list.component.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "task-form", "task-form", "{3461B8F2-80E2-4919-B8DE-6A396FD9F67B}"
+	ProjectSection(SolutionItems) = preProject
+		src\app\components\task-form\task-form.component.html = src\app\components\task-form\task-form.component.html
+		src\app\components\task-form\task-form.component.scss = src\app\components\task-form\task-form.component.scss
+		src\app\components\task-form\task-form.component.ts = src\app\components\task-form\task-form.component.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "environments", "environments", "{7DDC459D-FA65-47E9-8C27-488E653C5003}"
+	ProjectSection(SolutionItems) = preProject
+		src\app\environments\environment.prod.ts = src\app\environments\environment.prod.ts
+		src\app\environments\environment.ts = src\app\environments\environment.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		package.json = package.json
+		tsconfig.json = tsconfig.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AF07CFB-52E3-439F-87E8-95E04786340A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF07CFB-52E3-439F-87E8-95E04786340A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF07CFB-52E3-439F-87E8-95E04786340A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2AF07CFB-52E3-439F-87E8-95E04786340A}.Debug|x64.Build.0 = Debug|Any CPU
+		{2AF07CFB-52E3-439F-87E8-95E04786340A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2AF07CFB-52E3-439F-87E8-95E04786340A}.Debug|x86.Build.0 = Debug|Any CPU
+		{2AF07CFB-52E3-439F-87E8-95E04786340A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF07CFB-52E3-439F-87E8-95E04786340A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF07CFB-52E3-439F-87E8-95E04786340A}.Release|x64.ActiveCfg = Release|Any CPU
+		{2AF07CFB-52E3-439F-87E8-95E04786340A}.Release|x64.Build.0 = Release|Any CPU
+		{2AF07CFB-52E3-439F-87E8-95E04786340A}.Release|x86.ActiveCfg = Release|Any CPU
+		{2AF07CFB-52E3-439F-87E8-95E04786340A}.Release|x86.Build.0 = Release|Any CPU
+		{65F7D62B-8C04-46BC-B81B-D36E4DFB8D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F7D62B-8C04-46BC-B81B-D36E4DFB8D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F7D62B-8C04-46BC-B81B-D36E4DFB8D6E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{65F7D62B-8C04-46BC-B81B-D36E4DFB8D6E}.Debug|x64.Build.0 = Debug|Any CPU
+		{65F7D62B-8C04-46BC-B81B-D36E4DFB8D6E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{65F7D62B-8C04-46BC-B81B-D36E4DFB8D6E}.Debug|x86.Build.0 = Debug|Any CPU
+		{65F7D62B-8C04-46BC-B81B-D36E4DFB8D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F7D62B-8C04-46BC-B81B-D36E4DFB8D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F7D62B-8C04-46BC-B81B-D36E4DFB8D6E}.Release|x64.ActiveCfg = Release|Any CPU
+		{65F7D62B-8C04-46BC-B81B-D36E4DFB8D6E}.Release|x64.Build.0 = Release|Any CPU
+		{65F7D62B-8C04-46BC-B81B-D36E4DFB8D6E}.Release|x86.ActiveCfg = Release|Any CPU
+		{65F7D62B-8C04-46BC-B81B-D36E4DFB8D6E}.Release|x86.Build.0 = Release|Any CPU
+		{18259B6C-74AD-4053-B45E-7F89ABA943A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18259B6C-74AD-4053-B45E-7F89ABA943A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18259B6C-74AD-4053-B45E-7F89ABA943A8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{18259B6C-74AD-4053-B45E-7F89ABA943A8}.Debug|x64.Build.0 = Debug|Any CPU
+		{18259B6C-74AD-4053-B45E-7F89ABA943A8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{18259B6C-74AD-4053-B45E-7F89ABA943A8}.Debug|x86.Build.0 = Debug|Any CPU
+		{18259B6C-74AD-4053-B45E-7F89ABA943A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18259B6C-74AD-4053-B45E-7F89ABA943A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18259B6C-74AD-4053-B45E-7F89ABA943A8}.Release|x64.ActiveCfg = Release|Any CPU
+		{18259B6C-74AD-4053-B45E-7F89ABA943A8}.Release|x64.Build.0 = Release|Any CPU
+		{18259B6C-74AD-4053-B45E-7F89ABA943A8}.Release|x86.ActiveCfg = Release|Any CPU
+		{18259B6C-74AD-4053-B45E-7F89ABA943A8}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2AF07CFB-52E3-439F-87E8-95E04786340A} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{65F7D62B-8C04-46BC-B81B-D36E4DFB8D6E} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{18259B6C-74AD-4053-B45E-7F89ABA943A8} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{D3C447C9-5F69-47B2-957B-91E143D4522C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7E5839EF-F5BE-4679-BD91-A4DE7000D5C8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9A6104D4-3A84-4AF4-8CE2-0E65D2E7D9DE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7B839B1D-38BE-47B1-935F-31F79B841CA1} = {9A6104D4-3A84-4AF4-8CE2-0E65D2E7D9DE}
+		{3461B8F2-80E2-4919-B8DE-6A396FD9F67B} = {9A6104D4-3A84-4AF4-8CE2-0E65D2E7D9DE}
+		{7DDC459D-FA65-47E9-8C27-488E653C5003} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F044C44F-D351-41DA-BEE2-0CF24B5F2D80}
+	EndGlobalSection
+EndGlobal

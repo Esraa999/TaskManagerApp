@@ -1,0 +1,63 @@
+.container {
+    margin: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.task-table {
+    width: 100%;
+}
+
+.loading-spinner {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.no-tasks {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+.status-chip, .priority-chip {
+    padding: 4px 8px;
+    border-radius: 16px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.status-todo {
+    background-color: #e0e0e0;
+    color: #616161;
+}
+
+.status-in-progress {
+    background-color: #bbdefb;
+    color: #1976d2;
+}
+
+.status-done {
+    background-color: #c8e6c9;
+    color: #388e3c;
+}
+
+.priority-low {
+    background-color: #c8e6c9;
+    color: #388e3c;
+}
+
+.priority-medium {
+    background-color: #ffecb3;
+    color: #ffa000;
+}
+
+.priority-high {
+    background-color: #ffcdd2;
+    color: #d32f2f;
+}
